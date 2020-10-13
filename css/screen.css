@@ -249,11 +249,21 @@ input {
   font: 14px monospace;
   width: 300px;
   box-sizing: border-box;
-  border: 1px #999;
+  border: 2px solid #999;
 }
 
 input:focus {
   border-color: #000;
+}
+
+/* the submit and display user buttons */
+.button {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  color: red;
 }
 
 
