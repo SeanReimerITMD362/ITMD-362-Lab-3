@@ -203,6 +203,11 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+h1 { 
+  padding: 2em;
+  font: 36px monospace;
+  text-align: center;
+}
 
 /* ===== MODULAR STYLES ===== */
 
