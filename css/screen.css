@@ -209,6 +209,17 @@ h1 {
   text-align: center;
 }
 
+p {
+  padding: 1em;
+  font: 22px sans-serif;
+  text-align: left;
+  color: gray;
+}
+
+form li + li {
+  padding: 2em;
+}
+
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
