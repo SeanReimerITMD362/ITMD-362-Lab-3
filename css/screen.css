@@ -233,7 +233,29 @@ form li + li {
   font: 18px lucida;
   text-align: left;
   color: green;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
+
+/* list tags within my HTML form */
+ol {
+  list-style: none;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/* the text boxes that the users are inputting data in */
+input {
+  font: 14px monospace;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px #999;
+}
+
+input:focus {
+  border-color: #000;
+}
+
 
 /* ===== MODULAR STYLES ===== */
 
