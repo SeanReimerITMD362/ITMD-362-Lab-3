@@ -196,10 +196,16 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  text-align: center;
+  background-color: lightgrey;
 }
 
 label {
-  display: block;
+  display: inline-block;
+  padding: 1em;
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
 }
 
 /* ===== LAYOUT STYLES ====== */
