@@ -191,6 +191,12 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
+main {
+  background-color: #a9a9a9;
+  padding: 1em;
+  margin: 20px;
+}
+
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
@@ -198,28 +204,31 @@ html {
   text-rendering: optimizeLegibility;
   text-align: center;
   background-color: lightgrey;
+  font-family: Helvetica;
 }
 
 label {
   display: inline-block;
   padding: 1em;
-  font-family: Arial;
-  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
   color: black;
 }
 
-/* ===== LAYOUT STYLES ====== */
 h1 { 
-  padding: 2em;
+  padding: 1em;
   font: 36px monospace;
   text-align: center;
+  color: whitesmoke;
 }
 
 p {
   padding: 1em;
   font: 22px sans-serif;
-  text-align: left;
-  color: gray;
+  font-style: italic;
+  text-align: center;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* HTML user input form */
@@ -227,7 +236,7 @@ form {
   margin: 0 auto;
   width: fit-content;
   text-align: center;
-  padding: 2em;
+  padding: 1em;
   border: 5px #CCC;
   border-radius: 2em;
   margin-top: 2px;
@@ -235,43 +244,21 @@ form {
 }
 
 form li + li {
-  padding: 2em;
-  font: 18px lucida;
-  text-align: left;
-  color: green;
+  padding: 1em;
+  text-align:  center;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* list tags within my HTML form */
-ol {
-  list-style: none;
-  padding: 10px;
-  margin: 0 auto;
-}
-
 /* the text boxes that the users are inputting data in */
 input {
-  font: 14px monospace;
-  width: 300px;
+  font: 18px monospace;
+  width: fit-content;
   box-sizing: border-box;
-  border: 2px solid #999;
+  border: 5px lightgray;
 }
 
-input:focus {
-  border-color: #000;
-}
-
-/* the submit and display user buttons */
-.button {
-  width: 100%;
-  text-align: center;
-}
-
-button {
-  color: red;
-}
-
+/* ===== LAYOUT STYLES ====== */
 
 /* ===== MODULAR STYLES ===== */
 
