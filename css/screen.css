@@ -225,6 +225,7 @@ h1 {
   font: 36px monospace;
   text-align: center;
   color:#f5f5f5;
+  font-family: 'Piazzolla', serif;
 }
 
 /* for my paragraph tags */
@@ -245,6 +246,8 @@ form {
   padding: 1em;
   margin-top: 2px;
   margin-bottom: 2px;
+  font-family: 'Commissioner', sans-serif;
+
 }
 
 form li + li {
@@ -260,6 +263,7 @@ input {
   width: fit-content;
   box-sizing: border-box;
   border: 5px lightgray;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* ===== LAYOUT STYLES ====== */
